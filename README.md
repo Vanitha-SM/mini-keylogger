@@ -12,7 +12,21 @@
 
 #### 1. Clone repository:
 ```
-git clone https://github.com/<your-handle>/keylogger-watch-and-snap.git
-cd 
+git clone https://github.com/Vanitha-SM/mini-keylogger.git
 ```
 
+#### 2. (Optional) create virtual env:
+```
+python -m venv venv
+venv\Scripts\activate
+```
+#### 3. Install dependencies:
+```
+pip install -r requirements.txt
+```
+
+### 4. Run the .py file:
+```
+python main.py
+```
+##### Press esc key to exit the keylogger
